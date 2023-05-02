@@ -1,0 +1,21 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: soild blue;
+
+
+}
+.btn {
+    background-color: green;
+    padding: 10px;
+    color: white;
+    border-radius: 100px;
+}
+#div1{
+    background-color: blueviolet;
+    padding: 130px;
+    color: white;
+    border-radius: 100px;
+
+}
