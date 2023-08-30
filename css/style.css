@@ -44,3 +44,9 @@
     position: sticky;
     top: 0px;
 }
+.carouselExample {
+    width: 100px;
+    height: 100px;
+    position: relative;
+   }
+   
