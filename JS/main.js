@@ -15,5 +15,6 @@ print();
 
 function getData(){
     var email=document.getElementById('email').value;
+    document.getElementById('Result').innerHTML=email;
     console.log(email);
 }
