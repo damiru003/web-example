@@ -8,7 +8,7 @@
 .btn-custom {
     background-color: green;
     padding: 10px;
-    color: white;
+    color: black;
     border-radius: 100px;
 }
 
@@ -37,6 +37,35 @@
     font-family: fantasy;
 }
 
+/* Target the entire carousel */
+#carouselExample {
+    /* Set the carousel height */
+    height: 900px;
+    width: 1100px;
+  }
+  
+  /* Target the carousel items */
+  .carousel-item {
+    /* Change the background color of each item */
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the active carousel item */
+  .carousel-item.active {
+    /* Add a border to the active item */
+    border: 2px solid #eaeef3;
+  }
+  
+  /* Style the carousel images */
+  .carousel-item img {
+    /* Set a maximum width for the images */
+    max-width: 100%;
+    /* Center the images horizontally */
+    margin: 0 auto;
+    /* Add a shadow to the images */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
 .box1 {
     width: 800px;
     height: 100px;
@@ -44,9 +73,34 @@
     position: sticky;
     top: 0px;
 }
-.carouselExample {
-    width: 100px;
-    height: 100px;
-    position: relative;
+
+   .box32{
+    width: 500px;
+    height: 200px;
+    background-color: violet;
+    z-index: -1;
+    top: 0px;
    }
-   
+.box33{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(56, 199, 92);
+}
+   .main{
+    display: flex;
+    flex-direction: column;
+   }
+
+   @media screen and(max-width:425px){
+    .box33{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(69, 57, 198);
+    }
+
+    .my-para{
+        font-size: 400px;
+
+    }
+    
+   }
